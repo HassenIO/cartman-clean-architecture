@@ -1,0 +1,25 @@
+{
+  "name": "cartman",
+  "version": "1.0.0",
+  "description": "Manage your e-commerce carts",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "check": "gts check",
+    "clean": "gts clean",
+    "compile": "tsc -p .",
+    "fix": "gts fix",
+    "prepare": "npm run compile",
+    "pretest": "npm run compile",
+    "posttest": "npm run check"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "tslint": "^5.20.1",
+    "typescript": "~3.7.0",
+    "gts": "^1.1.2",
+    "@types/node": "^10.0.3"
+  }
+}
