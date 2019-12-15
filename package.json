@@ -4,6 +4,7 @@
   "description": "Manage your e-commerce carts",
   "main": "index.js",
   "scripts": {
+    "test": "jest",
     "build": "tsc",
     "check": "gts check",
     "clean": "gts clean",
@@ -17,9 +18,12 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "tslint": "^5.20.1",
-    "typescript": "~3.7.0",
+    "@types/jest": "^24.0.23",
+    "@types/node": "^10.0.3",
     "gts": "^1.1.2",
-    "@types/node": "^10.0.3"
+    "jest": "^24.9.0",
+    "ts-jest": "^24.2.0",
+    "tslint": "^5.20.1",
+    "typescript": "~3.7.0"
   }
 }
